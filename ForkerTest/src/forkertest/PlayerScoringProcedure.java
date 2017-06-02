@@ -10,6 +10,10 @@ public class PlayerScoringProcedure implements PlayingRoundCalcukations{
     public void Preflop_Round() {
       
     }
+    public void Preflop_Round(int card1,int card2) {
+      
+    }
+    
 
     @Override
     public void Flop_Round() {

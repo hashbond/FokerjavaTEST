@@ -28,7 +28,10 @@ public class Referee extends Player implements PlayingRoundCalcukations{
 
     @Override
     public void Preflop_Round() {
-        
+        if(isPlayerInput()== true)
+        {
+            
+        }
     }
 
     @Override
