@@ -1,34 +1,14 @@
 
 package forkertest;
 
-import forkertest.Player;
 import java.util.ArrayList;
 
-public class Referee extends Player implements PlayingRoundCalcukations{
-    private ArrayList <Integer> p_points = new ArrayList<>(8);
-    private ArrayList <String> p_names = new ArrayList<>(8);
-    private ArrayList <Integer> p_ids = new ArrayList<>(8);
-    private int i;
-    
-    protected int set_playerInfo()
-    {
-        
-        p_names.add(getName());
-        p_ids.add(getID());
-        return ++i;
-    }
-  
-     
-     
-    protected void point_calculate()
-    {
-        
-        
-    }
-
+public class PlayerScoringProcedure implements PlayingRoundCalcukations{
+    protected ArrayList <Integer> socres = new ArrayList<>(8);
+    protected ArrayList <Integer> p_ids = new ArrayList<>(8);
     @Override
     public void Preflop_Round() {
-        
+      
     }
 
     @Override

@@ -49,18 +49,22 @@ package forkertest;
              return id; 
          }
           protected void bet_Amount()
-        {
+         {
             
-        }
+         }
         protected void foul_Game()
-        {
+         {
     
-        }
+         }
         protected  void call()
+         {
+        
+         }
+        protected  void Raise()
         {
         
         }
-        protected  void Raise()
+        protected void Replace()
         {
         
         }
