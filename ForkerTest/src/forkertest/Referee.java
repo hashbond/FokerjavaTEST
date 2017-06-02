@@ -9,7 +9,7 @@ public class Referee extends Player implements PlayingRoundCalcukations{
     private ArrayList <String> p_names = new ArrayList<>(8);
     private ArrayList <Integer> p_ids = new ArrayList<>(8);
     private int i;
-    
+    PlayerScoringProcedure er = new PlayerScoringProcedure();
     protected int set_playerInfo()
     {
         
@@ -30,7 +30,7 @@ public class Referee extends Player implements PlayingRoundCalcukations{
     public void Preflop_Round() {
         if(isPlayerInput()== true)
         {
-            
+            er.Preflop_Round(getCard1(),getCard2());
         }
     }
 
