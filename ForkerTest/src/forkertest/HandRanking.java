@@ -3,29 +3,29 @@ package forkertest;
 
 import java.util.ArrayList;
 
-public class HandRanking {
+public  class  HandRanking {
 
     
     int card_rank[] = new int[14];
     int i,j;
-    boolean sate;
-    protected String Heart;
-    protected String Spades;
-    protected String Clubs;
-    protected String Diamon;
+    String sate;
+    protected String[] cardShapes;
+    
     public HandRanking() {
+        
+        this.cardShapes = new String[]{"Spades", "Clubs", "Diamon", "Heart"};
         for(int i=1;i<14;i++)
         {
             card_rank[i]=i;
         }
         
     }
-        
+    
     protected void RoyalFlush(int card1,int card2,int card3,int card4,int card5,int card6,int card7)//no matter isit spades,clubs,heart,diamon
     {
        int cards[] = new int[7];
        int temp=0;
-       sate = false;
+       this.sate = "";
        
        cards[0] = card1;
        cards[1] = card2;
@@ -61,7 +61,7 @@ public class HandRanking {
                          {
                              if(cards[9]==9)
                                 {
-                                    this.sate= true;
+                                    this.sate= "RoyalFlush";
                                 }
                          }
                      }
@@ -73,7 +73,7 @@ public class HandRanking {
        
            
        }
-       protected boolean returnState()
+       protected String returnState()
        {
            return sate;
        }

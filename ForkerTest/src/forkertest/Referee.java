@@ -30,7 +30,8 @@ public class Referee extends Player implements PlayingRoundCalcukations{
     public void Preflop_Round() {
         if(isPlayerInput()== true)
         {
-            er.Preflop_Round(getCard1(),getCard2());
+            
+            er.Preflop_Round(getCard1(),getCard2(),getID());
         }
     }
 
