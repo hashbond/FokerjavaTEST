@@ -49,9 +49,7 @@ public  class  HandRanking {
           }
        
        }
-       for(int i=0;i<14;i++)
-       {
-           if(cards[13]==13)
+       if(cards[13]==13)
            {
                if(cards[12]==12)
                 {
@@ -66,7 +64,7 @@ public  class  HandRanking {
                          }
                      }
                 }
-           }
+           
            
        }
        

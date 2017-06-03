@@ -7,6 +7,7 @@ package forkertest;
 
 
 public class shuffle {
+    //call those induvdual cards
     
     protected void distribCard(int i)
     {

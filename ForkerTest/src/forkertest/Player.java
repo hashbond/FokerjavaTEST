@@ -6,8 +6,27 @@ public class Player {
      private String Name;
      private boolean PlayerInput;
      private int card1;
+     private String card1shp;
      private int card2;
+     private String card2shp;
 
+
+    public String getCard1shp() {
+        return card1shp;
+    }
+
+    public String getCard2shp() {
+        return card2shp;
+    }
+
+    public void setCard1shp(String card1shp) {
+        this.card1shp = card1shp;
+    }
+
+    public void setCard2shp(String card2shp) {
+        this.card2shp = card2shp;
+    }
+     
     public int getCard1() {
         return card1;
     }
@@ -18,6 +37,7 @@ public class Player {
 
     public void setCard1(int card1) {
         this.card1 = card1;
+        
     }
 
     public void setCard2(int card2) {
