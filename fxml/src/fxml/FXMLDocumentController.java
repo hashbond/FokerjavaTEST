@@ -6,6 +6,7 @@
 package fxml;
 
 import com.jfoenix.controls.JFXButton;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.animation.PathTransition;
@@ -17,8 +18,13 @@ import javafx.scene.control.Label;
 import javafx.scene.shape.Circle;
 import javafx.scene.text.Text;
 import javafx.animation.TranslateTransition;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 import javafx.util.Duration;
 
 /**
@@ -129,6 +135,19 @@ public class FXMLDocumentController implements Initializable {
         transition8.play();
         
     }   
+
+    @FXML
+    private void HandeleButton(ActionEvent event) throws IOException {
+       
+        Parent root = FXMLLoader.load(getClass().getResource("HomeScreen.fxml"));
+        
+        Scene scene = new Scene(root);  
+        Stage stage = (Stage)((Node) event.getSource()).getScene().getWindow();
+        stage.close();
+        stage.setScene(scene);
+        stage.show(); 
+        
+    }
     
     
 }

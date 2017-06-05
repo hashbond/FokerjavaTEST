@@ -11,9 +11,9 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="763.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.FXMLDocumentController">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.FXMLDocumentController">
    <children>
-      <ImageView fitHeight="644.0" fitWidth="845.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="660.0" fitWidth="931.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/luxfon.com_18901.jpg" />
          </image>
@@ -21,9 +21,12 @@
             <GaussianBlur radius="13.75" />
          </effect>
       </ImageView>
-      <AnchorPane fx:id="o" prefHeight="380.0" prefWidth="585.0">
+      <AnchorPane fx:id="o" prefHeight="609.0" prefWidth="868.0">
          <children>
-            <JFXButton fx:id="button" buttonType="RAISED" layoutX="331.0" layoutY="483.0" prefHeight="48.0" prefWidth="143.0" style="-fx-background-color: red; -fx-background-radius: 2000;" text="Play" textFill="#5e2222" />
+            <JFXButton fx:id="button" buttonType="RAISED" layoutX="364.0" layoutY="480.0" onAction="#HandeleButton" prefHeight="48.0" prefWidth="143.0" style="-fx-background-color: red; -fx-background-radius: 2000;" text="Play" textFill="#1b0606">
+               <font>
+                  <Font size="21.0" />
+               </font></JFXButton>
             <ImageView id="img" fx:id="img" fitHeight="184.0" fitWidth="132.0" layoutX="553.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@image/0.png" />
