@@ -65,22 +65,22 @@ public class FXMLDocumentController implements Initializable {
        
         
         TranslateTransition transition = new TranslateTransition();
-        transition.setDuration(Duration.seconds(2));
+        transition.setDuration(Duration.seconds(3));
         transition.setNode(img);
         transition.setToX(-350);
         
         TranslateTransition transition1 = new TranslateTransition();
-        transition1.setDuration(Duration.seconds(2));
+        transition1.setDuration(Duration.seconds(3));
         transition1.setNode(img2);
         transition1.setToX(-250);
 
         TranslateTransition transition2 = new TranslateTransition();
-        transition2.setDuration(Duration.seconds(2));
+        transition2.setDuration(Duration.seconds(3));
         transition2.setNode(img4);
         transition2.setToX(-50);
         
         TranslateTransition transition3 = new TranslateTransition();
-        transition3.setDuration(Duration.seconds(2));
+        transition3.setDuration(Duration.seconds(3));
         transition3.setNode(img1);
         transition3.setToX(-150);
         
@@ -116,7 +116,7 @@ public class FXMLDocumentController implements Initializable {
         transition7.setAutoReverse(true);
         transition7.setCycleCount(TranslateTransition.INDEFINITE);
         
-          TranslateTransition transition8 = new TranslateTransition();
+        TranslateTransition transition8 = new TranslateTransition();
         transition8.setDuration(Duration.seconds(6));
         transition8.setNode(r);
         transition8.setToY(5);

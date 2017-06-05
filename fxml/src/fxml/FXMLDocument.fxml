@@ -18,7 +18,7 @@
             <Image url="@image/luxfon.com_18901.jpg" />
          </image>
          <effect>
-            <GaussianBlur radius="13.75" />
+            <GaussianBlur radius="27.25" />
          </effect>
       </ImageView>
       <AnchorPane fx:id="o" prefHeight="609.0" prefWidth="868.0">
