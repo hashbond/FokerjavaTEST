@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="664.0" prefWidth="1092.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.PlayasguestController">
+   <children>
+      <ImageView fitHeight="841.0" fitWidth="1116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/luxfon.com_18901.jpg" />
+         </image>
+         <effect>
+            <GaussianBlur radius="46.75" />
+         </effect>
+      </ImageView>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="randomcardloader" fitHeight="230.0" fitWidth="165.0" layoutX="799.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

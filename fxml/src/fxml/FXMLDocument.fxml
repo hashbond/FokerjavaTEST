@@ -23,26 +23,26 @@
       </ImageView>
       <AnchorPane fx:id="o" prefHeight="609.0" prefWidth="868.0">
          <children>
-            <JFXButton fx:id="button" buttonType="RAISED" layoutX="364.0" layoutY="480.0" onAction="#HandeleButton" prefHeight="48.0" prefWidth="143.0" style="-fx-background-color: red; -fx-background-radius: 2000;" text="Play" textFill="#1b0606">
+            <JFXButton fx:id="button" buttonType="RAISED" layoutX="364.0" layoutY="480.0" onAction="#HandeleButton" prefHeight="48.0" prefWidth="143.0" style="-fx-background-color: red; -fx-background-radius: 2000;" text="Play" textFill="#0a0a0a">
                <font>
                   <Font size="21.0" />
                </font></JFXButton>
-            <ImageView id="img" fx:id="img" fitHeight="184.0" fitWidth="132.0" layoutX="553.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView id="img" fx:id="img" fitHeight="184.0" fitWidth="132.0" layoutX="553.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@image/0.png" />
                </image>
             </ImageView>
-            <ImageView id="img2" fx:id="img2" fitHeight="165.0" fitWidth="120.0" layoutX="540.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView id="img2" fx:id="img2" fitHeight="165.0" fitWidth="120.0" layoutX="540.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@image/1.png" />
                </image>
             </ImageView>
-            <ImageView id="img" fx:id="img1" fitHeight="165.0" fitWidth="118.0" layoutX="514.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView id="img" fx:id="img1" fitHeight="165.0" fitWidth="118.0" layoutX="514.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@image/3.png" />
                </image>
             </ImageView>
-            <ImageView id="img" fx:id="img4" fitHeight="165.0" fitWidth="114.0" layoutX="483.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView id="img" fx:id="img4" fitHeight="165.0" fitWidth="114.0" layoutX="483.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@image/2.png" />
                </image>
@@ -114,6 +114,22 @@
             <Label fx:id="r" layoutX="274.0" layoutY="43.0" text="r" textFill="#bc0000">
                <font>
                   <Font size="83.0" />
+               </font>
+               <effect>
+                  <ColorAdjust>
+                     <input>
+                        <Blend>
+                           <topInput>
+                              <GaussianBlur />
+                           </topInput>
+                        </Blend>
+                     </input>
+                  </ColorAdjust>
+               </effect>
+            </Label>
+            <Label layoutX="77.0" layoutY="152.0" text="Play with Code Red" textFill="#bc0000">
+               <font>
+                  <Font size="22.0" />
                </font>
                <effect>
                   <ColorAdjust>

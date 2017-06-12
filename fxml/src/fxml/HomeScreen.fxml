@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.ColorAdjust?>
 <?import javafx.scene.effect.GaussianBlur?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -20,26 +23,122 @@
       </ImageView>
       <AnchorPane prefHeight="200.0" prefWidth="200.0">
          <children>
-            <JFXButton fx:id="playasguest" layoutX="850.0" layoutY="213.0" prefHeight="55.0" prefWidth="266.0" ripplerFill="#d00000" style="-fx-background-color: red;" text="Play as Guest">
+            <JFXButton fx:id="playasguest" layoutX="850.0" layoutY="213.0" onAction="#playasguest" prefHeight="55.0" prefWidth="266.0" ripplerFill="#d00000" style="-fx-background-color: red;" text="Play as Guest" textFill="WHITE">
                <font>
                   <Font size="22.0" />
                </font>
             </JFXButton>
-            <JFXButton fx:id="register" layoutX="850.0" layoutY="329.0" prefHeight="55.0" prefWidth="266.0" ripplerFill="#d00000" style="-fx-background-color: red;" text="Register">
+            <JFXButton fx:id="register" layoutX="850.0" layoutY="329.0" prefHeight="55.0" prefWidth="266.0" ripplerFill="#d00000" style="-fx-background-color: red;" text="Register" textFill="WHITE">
                <font>
                   <Font size="22.0" />
                </font>
             </JFXButton>
-            <JFXButton fx:id="about" layoutX="850.0" layoutY="445.0" prefHeight="55.0" prefWidth="266.0" ripplerFill="#d00000" style="-fx-background-color: red;" text="About">
+            <JFXButton fx:id="about" layoutX="850.0" layoutY="445.0" prefHeight="55.0" prefWidth="266.0" ripplerFill="#d00000" style="-fx-background-color: red;" text="About" textFill="WHITE">
                <font>
                   <Font size="22.0" />
                </font>
             </JFXButton>
-            <JFXButton fx:id="exit" layoutX="850.0" layoutY="569.0" prefHeight="55.0" prefWidth="266.0" ripplerFill="#d00000" style="-fx-background-color: red;" text="Exit">
+            <JFXButton fx:id="exit" layoutX="850.0" layoutY="569.0" prefHeight="55.0" prefWidth="266.0" ripplerFill="#d00000" style="-fx-background-color: red;" text="Exit" textFill="WHITE">
                <font>
                   <Font size="22.0" />
                </font>
             </JFXButton>
+            <Label fx:id="F" layoutX="150.0" layoutY="72.0" text="F" textFill="#bc0000">
+               <font>
+                  <Font size="83.0" />
+               </font>
+               <effect>
+                  <ColorAdjust>
+                     <input>
+                        <Blend>
+                           <topInput>
+                              <GaussianBlur />
+                           </topInput>
+                        </Blend>
+                     </input>
+                  </ColorAdjust>
+               </effect>
+            </Label>
+            <Label fx:id="F1" layoutX="191.0" layoutY="68.0" prefHeight="130.0" prefWidth="63.0" text="o" textFill="#bc0000">
+               <font>
+                  <Font size="83.0" />
+               </font>
+               <effect>
+                  <ColorAdjust>
+                     <input>
+                        <Blend>
+                           <topInput>
+                              <GaussianBlur />
+                           </topInput>
+                        </Blend>
+                     </input>
+                  </ColorAdjust>
+               </effect>
+            </Label>
+            <Label fx:id="k" layoutX="246.0" layoutY="70.0" text="k" textFill="#bc0000">
+               <font>
+                  <Font size="83.0" />
+               </font>
+               <effect>
+                  <ColorAdjust>
+                     <input>
+                        <Blend>
+                           <topInput>
+                              <GaussianBlur />
+                           </topInput>
+                        </Blend>
+                     </input>
+                  </ColorAdjust>
+               </effect>
+            </Label>
+            <Label fx:id="e" layoutX="297.0" layoutY="69.0" text="e" textFill="#bc0000">
+               <font>
+                  <Font size="83.0" />
+               </font>
+               <effect>
+                  <ColorAdjust>
+                     <input>
+                        <Blend>
+                           <topInput>
+                              <GaussianBlur />
+                           </topInput>
+                        </Blend>
+                     </input>
+                  </ColorAdjust>
+               </effect>
+            </Label>
+            <Label fx:id="r" layoutX="353.0" layoutY="69.0" text="r" textFill="#bc0000">
+               <font>
+                  <Font size="83.0" />
+               </font>
+               <effect>
+                  <ColorAdjust>
+                     <input>
+                        <Blend>
+                           <topInput>
+                              <GaussianBlur />
+                           </topInput>
+                        </Blend>
+                     </input>
+                  </ColorAdjust>
+               </effect>
+            </Label>
+            <Label layoutX="157.0" layoutY="180.0" text="Main Menu" textFill="#bc0000">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <effect>
+                  <ColorAdjust>
+                     <input>
+                        <Blend>
+                           <topInput>
+                              <GaussianBlur />
+                           </topInput>
+                        </Blend>
+                     </input>
+                  </ColorAdjust>
+               </effect>
+            </Label>
          </children>
       </AnchorPane>
    </children>
