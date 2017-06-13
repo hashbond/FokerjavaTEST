@@ -27,16 +27,20 @@ import javafx.stage.Stage;
  */
 public class PlayasguestController implements Initializable{
 
-    @FXML
-    private ImageView randomcardloader;
     
     private String[] shufflecards = new String[30];
     @FXML
-    private ImageView sloat1;
+    private ImageView slot2;
     @FXML
-    private ImageView sloat2;
+    private ImageView slot3;
     @FXML
-    private ImageView sloat3;
+    private ImageView slot1;
+    @FXML
+    private ImageView slot4;
+    @FXML
+    private ImageView slot0;
+    
+    private ImageView[] imgvw = {slot0,slot1,slot2,slot3,slot4};
     /**
      * Initializes the controller class.
      */
@@ -49,11 +53,17 @@ public class PlayasguestController implements Initializable{
     }    
     private void display_sloat()
     {
-        Image image = new Image(getClass().getResource("/cardpack/"+shufflecards[2]+".png").toExternalForm());
-        randomcardloader.setImage(image);
         
-        //Image image1 = new Image(getClass().getResource("/cardpack/12Diamon.png").toExternalForm());
-        //sloat1.setImage(image1);
+        ImageView slot = null;
+        //Image image1 = new Image(getClass().getResource("/cardpack/"+shufflecards[1]+".png").toExternalForm());
+        //slot1.setImage(image1);
+        
+        for(int i=0;i<5;i++)
+        {
+          Image image = new Image(getClass().getResource("/cardpack/"+shufflecards[0]+".png").toExternalForm());
+          String x = "slot"+Integer.toString(i);
+          imgvw[i].setImage(image);  
+        }
     }
     private void generate_pack()
     {

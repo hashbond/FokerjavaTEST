@@ -18,10 +18,155 @@
       </ImageView>
       <AnchorPane prefHeight="807.0" prefWidth="1132.0">
          <children>
-            <ImageView fx:id="sloat2" fitHeight="162.0" fitWidth="131.0" layoutX="287.0" layoutY="465.0" opacity="0.82" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="sloat3" fitHeight="162.0" fitWidth="131.0" layoutX="138.0" layoutY="465.0" opacity="0.82" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="sloat1" fitHeight="168.0" fitWidth="138.0" layoutX="592.0" layoutY="512.0" opacity="0.82" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="randomcardloader" fitHeight="168.0" fitWidth="138.0" layoutX="661.0" layoutY="512.0" opacity="0.82" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="slot4" fitHeight="119.0" fitWidth="87.0" layoutX="407.0" layoutY="558.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot3" fitHeight="119.0" fitWidth="87.0" layoutX="443.0" layoutY="558.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot2" fitHeight="120.0" fitWidth="87.0" layoutX="486.0" layoutY="558.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot1" fitHeight="120.0" fitWidth="122.0" layoutX="529.0" layoutY="560.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot0" fitHeight="120.0" fitWidth="122.0" layoutX="572.0" layoutY="560.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image></ImageView>
+            <ImageView fx:id="slot41" fitHeight="119.0" fitWidth="87.0" layoutX="725.0" layoutY="404.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot31" fitHeight="119.0" fitWidth="87.0" layoutX="761.0" layoutY="404.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot21" fitHeight="120.0" fitWidth="87.0" layoutX="804.0" layoutY="404.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot11" fitHeight="120.0" fitWidth="122.0" layoutX="847.0" layoutY="406.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot01" fitHeight="120.0" fitWidth="122.0" layoutX="890.0" layoutY="406.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot411" fitHeight="119.0" fitWidth="87.0" layoutX="721.0" layoutY="193.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot311" fitHeight="119.0" fitWidth="87.0" layoutX="757.0" layoutY="193.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot211" fitHeight="120.0" fitWidth="87.0" layoutX="800.0" layoutY="193.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot111" fitHeight="120.0" fitWidth="122.0" layoutX="843.0" layoutY="195.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot011" fitHeight="120.0" fitWidth="122.0" layoutX="886.0" layoutY="195.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot412" fitHeight="119.0" fitWidth="87.0" layoutX="411.0" layoutY="32.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot312" fitHeight="119.0" fitWidth="87.0" layoutX="447.0" layoutY="32.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot212" fitHeight="120.0" fitWidth="87.0" layoutX="490.0" layoutY="32.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot112" fitHeight="120.0" fitWidth="122.0" layoutX="533.0" layoutY="34.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot012" fitHeight="120.0" fitWidth="122.0" layoutX="576.0" layoutY="34.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot42" fitHeight="119.0" fitWidth="87.0" layoutX="104.0" layoutY="403.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot32" fitHeight="119.0" fitWidth="87.0" layoutX="140.0" layoutY="403.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot22" fitHeight="120.0" fitWidth="87.0" layoutX="183.0" layoutY="403.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot12" fitHeight="120.0" fitWidth="122.0" layoutX="226.0" layoutY="405.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot02" fitHeight="120.0" fitWidth="122.0" layoutX="269.0" layoutY="405.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot421" fitHeight="119.0" fitWidth="87.0" layoutX="112.0" layoutY="189.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot321" fitHeight="119.0" fitWidth="87.0" layoutX="148.0" layoutY="189.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot221" fitHeight="120.0" fitWidth="87.0" layoutX="191.0" layoutY="189.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot121" fitHeight="120.0" fitWidth="122.0" layoutX="234.0" layoutY="191.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="slot021" fitHeight="120.0" fitWidth="122.0" layoutX="277.0" layoutY="191.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/Slot.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
    </children>
