@@ -11,7 +11,7 @@ import java.util.Random;
 public class CardShuffle {
     protected int []cards = new int[30];
     protected String []type = new String[30];
-    private int value;
+    private boolean value=true;
    
     //protected HashMap card = new HashMap();
     int []cardid = {1,2,3,4,5,6,7,8,9,10,11,12,13};
@@ -32,6 +32,7 @@ public class CardShuffle {
             if(cardtyp == null)
             {
                 --i;
+                value = false;
                 break;
             }
             
@@ -40,15 +41,18 @@ public class CardShuffle {
                 if(id==cards[y] && cardtyp==type[y])
                     {
                         --i;
+                        value = false;
                         break;
+                        
                     
                     }
                
             }
-             
+            if(value = true)
+            {
              type[i] = cardtyp;
              cards[i] = id;
-                    
+            }       
             
         
         }      

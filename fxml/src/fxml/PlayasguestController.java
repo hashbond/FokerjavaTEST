@@ -40,7 +40,7 @@ public class PlayasguestController implements Initializable{
     @FXML
     private ImageView slot0;
     
-    private ImageView[] imgvw = {slot0,slot1,slot2,slot3,slot4};
+    private ImageView[] imgvw = {slot0};
     /**
      * Initializes the controller class.
      */
@@ -54,16 +54,16 @@ public class PlayasguestController implements Initializable{
     private void display_sloat()
     {
         
-        ImageView slot = null;
+       
         //Image image1 = new Image(getClass().getResource("/cardpack/"+shufflecards[1]+".png").toExternalForm());
         //slot1.setImage(image1);
         
-        for(int i=0;i<5;i++)
-        {
+       // for(int i=0;i<1;i++)
+        //{
           Image image = new Image(getClass().getResource("/cardpack/"+shufflecards[0]+".png").toExternalForm());
-          String x = "slot"+Integer.toString(i);
-          imgvw[i].setImage(image);  
-        }
+          //imgvw[0] = new ImageView();
+          slot0.setImage(image);  
+        //}
     }
     private void generate_pack()
     {
