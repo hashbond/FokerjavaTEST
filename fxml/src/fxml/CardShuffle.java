@@ -25,8 +25,6 @@ public class CardShuffle {
         int i,y;
         for(i=0;i<30;i++)
         {
-        
-            
             int id = cardid[ran.nextInt(cardid.length)];
             String cardtyp = cardtype[random.nextInt(cardtype.length)];
             if(cardtyp == null)
@@ -36,16 +34,20 @@ public class CardShuffle {
                 break;
             }
             
-            for(y=0;y<30;y++)
+            for(y=0;y<i;y++)
             {
                 if(id==cards[y] && cardtyp==type[y])
                     {
-                        --i;
+                        i=i-1;
                         value = false;
                         break;
                         
                     
                     }
+                else
+                {
+                    value = true;
+                }
                
             }
             if(value = true)
